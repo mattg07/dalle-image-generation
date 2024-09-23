@@ -2,6 +2,8 @@ import os
 import sys
 import argparse
 import openai
+from dotenv import load_dotenv
+load_dotenv()
 
 # Set up defaults and get API key from environment variable
 defaults = {
